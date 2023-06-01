@@ -1,6 +1,7 @@
 import { CartCard } from "../components/CartCard";
 import { useTitle } from "../hooks/useTitle";
-
+import image1 from '../assets/1001.png';
+import image2 from '../assets/1002.png';
 
 
 export const Cart = () => {
@@ -10,13 +11,13 @@ export const Cart = () => {
       id: 1,
       name: "Sony Wh-Ch510 Bluetooth Wireless",
       price: 149,
-      image: "../assets/1001.png",
+      image: image1,
     },
     {
       id: 2,
       name: "Boat Rockerz 450",
       price: 49,
-      image: "../assets/1002.png",
+      image: image2,
     },
   ];
   return (
